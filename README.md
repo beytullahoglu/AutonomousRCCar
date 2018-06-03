@@ -31,6 +31,7 @@
 time to understand what other projects did and we were inspired by them.
 * In neural network part, we played with layer numbers, layer sizes, activation functions and etc. to get a precise model.
 * Our stop sign classifier was taken from an other project. I mentioned that project in references 
+* You need to edit file directories, servo motor angles and pwm cycles if you need to use this project's source code
 
 ### References and Inspirations
 * https://github.com/hamuchiwa/AutoRCCar
