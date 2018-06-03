@@ -4,6 +4,13 @@
 
    An autonomous RC car which can stay between white lines and react when it sees a stop sign. 
 
+### Group Members
+* Buğra Beytullahoğlu
+* Merve Çetiner
+* Elif Nur Özbek
+* Onuralp Şimşek
+* Gürcan Cengiz
+
 ### Tools and Libraries
 * Raspbery Pi 3
 * Raspberry Pi Camera Module
