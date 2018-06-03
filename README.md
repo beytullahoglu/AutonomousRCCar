@@ -1,10 +1,32 @@
-Autonomous RC Car for ME 384 Mechatronics course project.
-Bilkent University, Ankara, Turkey.
-Our aim is to be build a car which can stay between white lines and react when it sees a stop-sign.
-Me and my group members spent a semester to complete it.
-We used Raspberry Pi 3 as our microcontroller.
-Raspberry Pi camera module was used to see what is on the road.
-Using HumanDrive.py, we drove our car and collected data at the time.
-Afterwards, those data was processed to build a neural network in NeuralNetwork.py.
-Finally, our neural network model helped our car to predict its route in AutonomousDriving.py
+## Autonomous RC Car 
+## ME384 Mechatronics Course Project
+## Bilkent University, Ankara, Turkey
 
+   An autonomous RC car which can stay between white lines and react when it sees a stop sign. 
+
+### Tools and Libraries
+* Raspbery Pi 3
+* Raspberry Pi Camera Module
+* PiCamera
+* Numpy
+* OpenCV
+* Keras
+* Tensorflow
+
+### Codes
+* HumanDrive.py: Constantly saves a frame apply image processing to it (Canny Edge Detection), and saves user input at the same time for further neural network training
+* NeuralNetwork.py: Using keras and tensorflow, build a neural network model with data which was collected in HumanDrive.py
+* AutonomousDriving.py: Using trained model, predicts driving conditions.
+
+### Notes
+* As junior mechanical engineering students, me and my group members had little knowledge about neural networks and image processing. Therefore, we spent a lot of
+time to understand what other projects did and we were inspired by them.
+* In neural network part, we played with layer numbers, layer sizes, activation functions and etc. to get a precise model.
+* Our stop sign classifier was taken from an other project. I mentioned that project in references 
+
+### References and Inspirations
+* https://github.com/hamuchiwa/AutoRCCar
+* https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+* https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/
+
+I would be glad to get any comments and questions from anyone.
