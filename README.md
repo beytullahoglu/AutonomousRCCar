@@ -1,2 +1,0 @@
-# AutonomousRCCar
-Autonomous RC Car 
