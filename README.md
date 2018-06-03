@@ -6,6 +6,7 @@
 
 ### Group Members
 * Buğra Beytullahoğlu
+* Uzay Tefek
 * Merve Çetiner
 * Elif Nur Özbek
 * Onuralp Şimşek
