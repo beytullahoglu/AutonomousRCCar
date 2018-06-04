@@ -3,7 +3,8 @@
 ## Bilkent University, Ankara, Turkey
 
    An autonomous RC car which can stay between white lines and react when it sees a stop sign. 
-   <a href="https://www.youtube.com/watch?v=-MaZoxNlZlw
+  
+  <a href="https://www.youtube.com/watch?v=-MaZoxNlZlw
 " target="_blank"><img src="http://img.youtube.com/vi/-MaZoxNlZlw/0.jpg" width="360" height="240" border="10" /></a>
 
 ### Group Members
